@@ -6,11 +6,11 @@ PoGoFinder is a multi-threaded desktop application, that utilizes the JavaFX's w
 
 There is communication between Java and Javascript
 
-:warning: #### WARNING
+#### WARNING
 
-Latest security update on Niantic's servers has crippled all Pokemon Go Scanners
+:warning: Latest security update on Niantic's servers has crippled all Pokemon Go Scanners
 
-WILL NOT work until further notice (Reversing in progress...)
+:warning: WILL NOT work until further notice (Reversing in progress...)
 
 ## Features
 
