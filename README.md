@@ -7,10 +7,8 @@ There is communication between Java and Javascript
 
 #### WARNING
 
-```
 :warning: Latest security update on Niantic's servers has crippled all Pokemon Go Scanners :warning:
 :warning: WILL NOT work until further notice (Reversing in progress...) :warning:
-```
 
 ## Features
 
@@ -41,7 +39,7 @@ There is communication between Java and Javascript
 * [Leaflet Loading Control](https://github.com/ebrelsford/Leaflet.loading)
 * [noUiSlider](https://refreshless.com/nouislider/)
 
-## Example
+## Examples
 
 ##### Accounts
 
