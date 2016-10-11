@@ -1,0 +1,759 @@
+{
+  "pokemon": [
+    {
+      "id": "001",
+      "name": "BULBASAUR",
+      "rarity": 2
+    },
+    {
+      "id": "002",
+      "name": "IVYSAUR",
+      "rarity": 6
+    },
+    {
+      "id": "003",
+      "name": "VENUSAUR",
+      "rarity": 7
+    },
+    {
+      "id": "004",
+      "name": "CHARMANDER",
+      "rarity": 2
+    },
+    {
+      "id": "005",
+      "name": "CHARMELEON",
+      "rarity": 6
+    },
+    {
+      "id": "006",
+      "name": "CHARIZARD",
+      "rarity": 7
+    },
+    {
+      "id": "007",
+      "name": "SQUIRTLE",
+      "rarity": 2
+    },
+    {
+      "id": "008",
+      "name": "WARTORTLE",
+      "rarity": 6
+    },
+    {
+      "id": "009",
+      "name": "BLASTOISE",
+      "rarity": 7
+    },
+    {
+      "id": "010",
+      "name": "CATERPIE",
+      "rarity": 1
+    },
+    {
+      "id": "011",
+      "name": "METAPOD",
+      "rarity": 2
+    },
+    {
+      "id": "012",
+      "name": "BUTTERFREE",
+      "rarity": 3
+    },
+    {
+      "id": "013",
+      "name": "WEEDLE",
+      "rarity": 1
+    },
+    {
+      "id": "014",
+      "name": "KAKUNA",
+      "rarity": 2
+    },
+    {
+      "id": "015",
+      "name": "BEEDRILL",
+      "rarity": 4
+    },
+    {
+      "id": "016",
+      "name": "PIDGEY",
+      "rarity": 1
+    },
+    {
+      "id": "017",
+      "name": "PIDGEOTTO",
+      "rarity": 2
+    },
+    {
+      "id": "018",
+      "name": "PIDGEOT",
+      "rarity": 4
+    },
+    {
+      "id": "019",
+      "name": "RATTATA",
+      "rarity": 1
+    },
+    {
+      "id": "020",
+      "name": "RATICATE",
+      "rarity": 2
+    },
+    {
+      "id": "021",
+      "name": "SPEAROW",
+      "rarity": 2
+    },
+    {
+      "id": "022",
+      "name": "FEAROW",
+      "rarity": 3
+    },
+    {
+      "id": "023",
+      "name": "EKANS",
+      "rarity": 1
+    },
+    {
+      "id": "024",
+      "name": "ARBOK",
+      "rarity": 2
+    },
+    {
+      "id": "025",
+      "name": "PIKACHU",
+      "rarity": 2
+    },
+    {
+      "id": "026",
+      "name": "RAICHU",
+      "rarity": 5
+    },
+    {
+      "id": "027",
+      "name": "SANDSHREW",
+      "rarity": 1
+    },
+    {
+      "id": "028",
+      "name": "SANDSLASH",
+      "rarity": 2
+    },
+    {
+      "id": "029",
+      "name": "NIDORAN_FEMALE",
+      "rarity": 1
+    },
+    {
+      "id": "030",
+      "name": "NIDORINA",
+      "rarity": 3
+    },
+    {
+      "id": "031",
+      "name": "NIDOQUEEN",
+      "rarity": 5
+    },
+    {
+      "id": "032",
+      "name": "NIDORAN_MALE",
+      "rarity": 1
+    },
+    {
+      "id": "033",
+      "name": "NIDORINO",
+      "rarity": 3
+    },
+    {
+      "id": "034",
+      "name": "NIDOKING",
+      "rarity": 5
+    },
+    {
+      "id": "035",
+      "name": "CLEFAIRY",
+      "rarity": 2
+    },
+    {
+      "id": "036",
+      "name": "CLEFABLE",
+      "rarity": 7
+    },
+    {
+      "id": "037",
+      "name": "VULPIX",
+      "rarity": 2
+    },
+    {
+      "id": "038",
+      "name": "NINETALES",
+      "rarity": 3
+    },
+    {
+      "id": "039",
+      "name": "JIGGLYPUFF",
+      "rarity": 2
+    },
+    {
+      "id": "040",
+      "name": "WIGGLYTUFF",
+      "rarity": 3
+    },
+    {
+      "id": "041",
+      "name": "ZUBAT",
+      "rarity": 1
+    },
+    {
+      "id": "042",
+      "name": "GOLBAT",
+      "rarity": 2
+    },
+    {
+      "id": "043",
+      "name": "ODDISH",
+      "rarity": 1
+    },
+    {
+      "id": "044",
+      "name": "GLOOM",
+      "rarity": 3
+    },
+    {
+      "id": "045",
+      "name": "VILEPLUME",
+      "rarity": 5
+    },
+    {
+      "id": "046",
+      "name": "PARAS",
+      "rarity": 1
+    },
+    {
+      "id": "047",
+      "name": "PARASECT",
+      "rarity": 3
+    },
+    {
+      "id": "048",
+      "name": "VENONAT",
+      "rarity": 1
+    },
+    {
+      "id": "049",
+      "name": "VENOMOTH",
+      "rarity": 5
+    },
+    {
+      "id": "050",
+      "name": "DIGLETT",
+      "rarity": 2
+    },
+    {
+      "id": "051",
+      "name": "DUGTRIO",
+      "rarity": 3
+    },
+    {
+      "id": "052",
+      "name": "MEOWTH",
+      "rarity": 1
+    },
+    {
+      "id": "053",
+      "name": "PERSIAN",
+      "rarity": 2
+    },
+    {
+      "id": "054",
+      "name": "PSYDUCK",
+      "rarity": 2
+    },
+    {
+      "id": "055",
+      "name": "GOLDUCK",
+      "rarity": 3
+    },
+    {
+      "id": "056",
+      "name": "MANKEY",
+      "rarity": 1
+    },
+    {
+      "id": "057",
+      "name": "PRIMEAPE",
+      "rarity": 3
+    },
+    {
+      "id": "058",
+      "name": "GROWLITHE",
+      "rarity": 2
+    },
+    {
+      "id": "059",
+      "name": "ARCANINE",
+      "rarity": 4
+    },
+    {
+      "id": "060",
+      "name": "POLIWAG",
+      "rarity": 1
+    },
+    {
+      "id": "061",
+      "name": "POLIWHIRL",
+      "rarity": 3
+    },
+    {
+      "id": "062",
+      "name": "POLIWRATH",
+      "rarity": 5
+    },
+    {
+      "id": "063",
+      "name": "ABRA",
+      "rarity": 2
+    },
+    {
+      "id": "064",
+      "name": "KADABRA",
+      "rarity": 3
+    },
+    {
+      "id": "065",
+      "name": "ALAKAZAM",
+      "rarity": 5
+    },
+    {
+      "id": "066",
+      "name": "MACHOP",
+      "rarity": 1
+    },
+    {
+      "id": "067",
+      "name": "MACHOKE",
+      "rarity": 2
+    },
+    {
+      "id": "068",
+      "name": "MACHAMP",
+      "rarity": 3
+    },
+    {
+      "id": "069",
+      "name": "BELLSPROUT",
+      "rarity": 1
+    },
+    {
+      "id": "070",
+      "name": "WEEPINBELL",
+      "rarity": 4
+    },
+    {
+      "id": "071",
+      "name": "VICTREEBEL",
+      "rarity": 5
+    },
+    {
+      "id": "072",
+      "name": "TENTACOOL",
+      "rarity": 2
+    },
+    {
+      "id": "073",
+      "name": "TENTACRUEL",
+      "rarity": 3
+    },
+    {
+      "id": "074",
+      "name": "GEODUDE",
+      "rarity": 1
+    },
+    {
+      "id": "075",
+      "name": "GRAVELER",
+      "rarity": 2
+    },
+    {
+      "id": "076",
+      "name": "GOLEM",
+      "rarity": 3
+    },
+    {
+      "id": "077",
+      "name": "PONYTA",
+      "rarity": 2
+    },
+    {
+      "id": "078",
+      "name": "RAPIDASH",
+      "rarity": 4
+    },
+    {
+      "id": "079",
+      "name": "SLOWPOKE",
+      "rarity": 1
+    },
+    {
+      "id": "080",
+      "name": "SLOWBRO",
+      "rarity": 4
+    },
+    {
+      "id": "081",
+      "name": "MAGNEMITE",
+      "rarity": 1
+    },
+    {
+      "id": "082",
+      "name": "MAGNETON",
+      "rarity": 2
+    },
+    {
+      "id": "083",
+      "name": "FARFETCHD",
+      "rarity": 4
+    },
+    {
+      "id": "084",
+      "name": "DODUO",
+      "rarity": 2
+    },
+    {
+      "id": "085",
+      "name": "DODRIO",
+      "rarity": 3
+    },
+    {
+      "id": "086",
+      "name": "SEEL",
+      "rarity": 2
+    },
+    {
+      "id": "087",
+      "name": "DEWGONG",
+      "rarity": 5
+    },
+    {
+      "id": "088",
+      "name": "GRIMER",
+      "rarity": 2
+    },
+    {
+      "id": "089",
+      "name": "MUK",
+      "rarity": 4
+    },
+    {
+      "id": "090",
+      "name": "SHELLDER",
+      "rarity": 2
+    },
+    {
+      "id": "091",
+      "name": "CLOYSTER",
+      "rarity": 3
+    },
+    {
+      "id": "092",
+      "name": "GASTLY",
+      "rarity": 1
+    },
+    {
+      "id": "093",
+      "name": "HAUNTER",
+      "rarity": 2
+    },
+    {
+      "id": "094",
+      "name": "GENGAR",
+      "rarity": 5
+    },
+    {
+      "id": "095",
+      "name": "ONIX",
+      "rarity": 4
+    },
+    {
+      "id": "096",
+      "name": "DROWZEE",
+      "rarity": 2
+    },
+    {
+      "id": "097",
+      "name": "HYPNO",
+      "rarity": 3
+    },
+    {
+      "id": "098",
+      "name": "KRABBY",
+      "rarity": 1
+    },
+    {
+      "id": "099",
+      "name": "KINGLER",
+      "rarity": 4
+    },
+    {
+      "id": "100",
+      "name": "VOLTORB",
+      "rarity": 1
+    },
+    {
+      "id": "101",
+      "name": "ELECTRODE",
+      "rarity": 2
+    },
+    {
+      "id": "102",
+      "name": "EXEGGCUTE",
+      "rarity": 2
+    },
+    {
+      "id": "103",
+      "name": "EXEGGUTOR",
+      "rarity": 4
+    },
+    {
+      "id": "104",
+      "name": "CUBONE",
+      "rarity": 2
+    },
+    {
+      "id": "105",
+      "name": "MAROWAK",
+      "rarity": 5
+    },
+    {
+      "id": "106",
+      "name": "HITMONLEE",
+      "rarity": 2
+    },
+    {
+      "id": "107",
+      "name": "HITMONCHAN",
+      "rarity": 3
+    },
+    {
+      "id": "108",
+      "name": "LICKITUNG",
+      "rarity": 3
+    },
+    {
+      "id": "109",
+      "name": "KOFFING",
+      "rarity": 2
+    },
+    {
+      "id": "110",
+      "name": "WEEZING",
+      "rarity": 3
+    },
+    {
+      "id": "111",
+      "name": "RHYHORN",
+      "rarity": 2
+    },
+    {
+      "id": "112",
+      "name": "RHYDON",
+      "rarity": 4
+    },
+    {
+      "id": "113",
+      "name": "CHANSEY",
+      "rarity": 3
+    },
+    {
+      "id": "114",
+      "name": "TANGELA",
+      "rarity": 4
+    },
+    {
+      "id": "115",
+      "name": "KANGASKHAN",
+      "rarity": 5
+    },
+    {
+      "id": "116",
+      "name": "HORSEA",
+      "rarity": 2
+    },
+    {
+      "id": "117",
+      "name": "SEADRA",
+      "rarity": 3
+    },
+    {
+      "id": "118",
+      "name": "GOLDEEN",
+      "rarity": 1
+    },
+    {
+      "id": "119",
+      "name": "SEAKING",
+      "rarity": 3
+    },
+    {
+      "id": "120",
+      "name": "STARYU",
+      "rarity": 2
+    },
+    {
+      "id": "121",
+      "name": "STARMIE",
+      "rarity": 3
+    },
+    {
+      "id": "122",
+      "name": "MR_MIME",
+      "rarity": 4
+    },
+    {
+      "id": "123",
+      "name": "SCYTHER",
+      "rarity": 3
+    },
+    {
+      "id": "124",
+      "name": "JYNX",
+      "rarity": 2
+    },
+    {
+      "id": "125",
+      "name": "ELECTABUZZ",
+      "rarity": 5
+    },
+    {
+      "id": "126",
+      "name": "MAGMAR",
+      "rarity": 4
+    },
+    {
+      "id": "127",
+      "name": "PINSIR",
+      "rarity": 4
+    },
+    {
+      "id": "128",
+      "name": "TAUROS",
+      "rarity": 7
+    },
+    {
+      "id": "129",
+      "name": "MAGIKARP",
+      "rarity": 1
+    },
+    {
+      "id": "130",
+      "name": "GYARADOS",
+      "rarity": 5
+    },
+    {
+      "id": "131",
+      "name": "LAPRAS",
+      "rarity": 5
+    },
+    {
+      "id": "132",
+      "name": "DITTO",
+      "rarity": 8
+    },
+    {
+      "id": "133",
+      "name": "EEVEE",
+      "rarity": 1
+    },
+    {
+      "id": "134",
+      "name": "VAPOREON",
+      "rarity": 5
+    },
+    {
+      "id": "135",
+      "name": "JOLTEON",
+      "rarity": 4
+    },
+    {
+      "id": "136",
+      "name": "FLAREON",
+      "rarity": 4
+    },
+    {
+      "id": "137",
+      "name": "PORYGON",
+      "rarity": 6
+    },
+    {
+      "id": "138",
+      "name": "OMANYTE",
+      "rarity": 6
+    },
+    {
+      "id": "139",
+      "name": "OMASTAR",
+      "rarity": 7
+    },
+    {
+      "id": "140",
+      "name": "KABUTO",
+      "rarity": 3
+    },
+    {
+      "id": "141",
+      "name": "KABUTOPS",
+      "rarity": 5
+    },
+    {
+      "id": "142",
+      "name": "AERODACTYL",
+      "rarity": 6
+    },
+    {
+      "id": "143",
+      "name": "SNORLAX",
+      "rarity": 4
+    },
+    {
+      "id": "144",
+      "name": "ARTICUNO",
+      "rarity": 8
+    },
+    {
+      "id": "145",
+      "name": "ZAPDOS",
+      "rarity": 8
+    },
+    {
+      "id": "146",
+      "name": "MOLTRES",
+      "rarity": 8
+    },
+    {
+      "id": "147",
+      "name": "DRATINI",
+      "rarity": 3
+    },
+    {
+      "id": "148",
+      "name": "DRAGONAIR",
+      "rarity": 5
+    },
+    {
+      "id": "149",
+      "name": "DRAGONITE",
+      "rarity": 7
+    },
+    {
+      "id": "150",
+      "name": "MEWTWO",
+      "rarity": 8
+    },
+    {
+      "id": "151",
+      "name": "MEW",
+      "rarity": 9
+    }
+  ]
+}

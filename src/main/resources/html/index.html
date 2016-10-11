@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PoGoFinder - Find Pokémon all around you!</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/app/favicon.ico"/>
+
+    <!-- Pure.css -->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <!-- Leaflet.css -->
+    <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css">
+    <link rel="stylesheet" href="assets/css/leaflet-loading-control.css">
+    <!-- Bootstrap.css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap-theme.css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!--noUiSlider-->
+    <link rel="stylesheet" href="assets/css/nouislider.min.css">
+    <!-- Custom.css -->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- JQuery.js -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+            integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <!-- Bootstrap.js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+    <!-- Leaflet.js -->
+    <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script src="assets/js/leaflet-loading-control.js"></script>
+    <!--Spin.js-->
+    <script src="http://spin.js.org/spin.min.js"></script>
+    <!--Firebug-->
+    <!--<script src="http://getfirebug.com/releases/lite/1.2/firebug-lite-compressed.js"></script>-->
+    <!--noUiSlider-->
+    <script src="assets/js/nouislider.min.js"></script>
+    <!-- Custom.js -->
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/java.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            initialize();
+            initMap();
+            setInterval(updateMarkers, 1000);
+            java.documentReady();
+        });
+    </script>
+</head>
+<body>
+
+<div id="mapDiv"></div>
+
+<div class="sliders" id="speedSlider">
+    <span class="tooltipText"></span>
+</div>
+
+<div id="toggleButton">
+    <img id="X" src="assets/images/app/x.png" alt="X Button" onclick="toggleScanOnly()">
+    <img id="Y" src="assets/images/app/y.png" alt="Y Button" onclick="toggleFollow()">
+    <img id="B" src="assets/images/app/b.png" alt="B Button" onclick="toggleScanCircles()">
+    <img id="A" class="buttonDisabled" src="assets/images/app/a.png" alt="A Button" onclick="scanForPokemonOnMarker()">
+    <img id="Start" class="startDisabled" src="assets/images/app/start.png" alt="Start Button" onclick="toggleForts()">
+</div>
+
+</body>
+</html>

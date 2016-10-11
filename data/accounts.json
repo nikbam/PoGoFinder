@@ -1,0 +1,16 @@
+{
+  "accounts": [
+    {
+      "type": "PTC",
+      "username": "account1",
+      "password": "123456789",
+      "active": false
+    },
+    {
+      "type": "PTC",
+      "username": "account2",
+      "password": "123456789",
+      "active": true
+    }
+  ]
+}

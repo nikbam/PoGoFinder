@@ -1,0 +1,323 @@
+html, body {
+    font-family: Muli, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+input[ type="radio" ] {
+    vertical-align: text-bottom;
+}
+
+.hide {
+    display: none;
+}
+
+.center {
+    vertical-align: middle;
+    line-height: 32px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+#mapDiv {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.containerDiv {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.pokeImage > img {
+    margin: 0;
+}
+
+.custom-popup .leaflet-popup-tip,
+.custom-popup .leaflet-popup-content-wrapper {
+    background: black;
+    color: #FFF;
+}
+
+.despawnTimer {
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgba(100, 100, 100, 100);
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    width: 100%;
+}
+
+#speedSlider {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+    background: #C0392B;
+    z-index: 801;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+}
+
+.tooltipText {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.tooltipText::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border: 5px solid transparent;
+    border-bottom-color: black;
+}
+
+#speedSlider:hover .tooltipText,
+#speedSlider:active .tooltipText {
+    visibility: visible;
+    opacity: 0.9;
+}
+
+.noUi-handle {
+    background: url("images/app/speed.png") no-repeat;
+    border-radius: 5px;
+    cursor: col-resize;
+}
+
+.noUi-handle:after,
+.noUi-handle:before {
+    content: none;
+}
+
+.noUi-background,
+.leaflet-bar a,
+.leaflet-bar a:hover,
+.leaflet-control-layers {
+    background-color: #EFF7EE;
+}
+
+.speedBoost {
+    background-image: url("images/app/fire-boost.gif");
+}
+
+.legend-Interior {
+    width: 45px;
+    height: 35px;
+    background: #C0392B url("images/app/gamepad-legend.png") no-repeat 50% 50%;
+    display: block;
+    padding: 3px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 5px #C0392B;
+    cursor: pointer;
+    text-align: center;
+    transition: width 1.5s, height 1.5s;
+}
+
+.legend-Interior:hover {
+    width: 603px;
+    height: 445px;
+}
+
+#toggleButton {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+    z-index: 800;
+    padding: 5px;
+}
+
+#toggleButton img {
+    display: inline;
+    width: 32px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.buttonDisabled {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.startDisabled {
+    content: url("images/app/start-disabled.png");
+}
+
+.filter-Container {
+    border-radius: 4px;
+    background-color: #EFF7EE;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+    max-width: 42px;
+    max-height: 42px;
+    text-align: center;
+    overflow: hidden;
+    transition: max-width 1s ease-out, max-height 0.5s ease-out;
+}
+
+.filter-Container:hover {
+    max-width: 250px;
+    max-height: 500px;
+    height: auto;
+    transition: max-width 0.5s ease-in, max-height 1s ease-in;
+}
+
+.filter-Pin {
+    max-width: 250px;
+    max-height: 500px;
+}
+
+.filter-Interior {
+    width: 250px;
+}
+
+.filter-Title {
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid #CCC;
+    padding: 5px;
+}
+
+.filter-Content {
+    padding-bottom: 10px;
+}
+
+.filter-List {
+    height: 350px;
+    list-style: none;
+    padding: 0 10px;
+    margin: 0;
+    overflow: auto;
+    text-align: right;
+}
+
+.filter-List li {
+    line-height: 32px;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+.filter-List li:first-child {
+    margin-top: 0;
+}
+
+.filter-List li:last-child {
+    margin-bottom: 0;
+}
+
+.filter-Content input {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    margin: 0;
+}
+
+.filter-Content label {
+    margin: 0;
+    padding: 0 10px;
+    font-weight: 500;
+}
+
+.filter-Content-Options {
+    text-align: center;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.filter-Content-Options span:first-child {
+    margin-right: 20px;
+}
+
+.filter-Last {
+    margin-bottom: 0 !important;
+}
+
+.filter-Content-Options label {
+    padding-left: 0;
+}
+
+.rarity-1 {
+    background-color: #64B3DF;
+    color: black;
+}
+
+.rarity-2 {
+    background-color: #115778;
+    color: white;
+}
+
+.rarity-3 {
+    background-color: #9DE259;
+    color: black;
+}
+
+.rarity-4 {
+    background-color: #548724;
+    color: black;
+}
+
+.rarity-5 {
+    background-color: #FFE060;
+    color: black;
+}
+
+.rarity-6 {
+    background-color: #FFAA3C;
+    color: black;
+}
+
+.rarity-7 {
+    background-color: #FF5F5E;
+    color: white;
+}
+
+.rarity-8 {
+    background-color: #9D44BA;
+    color: white;
+}
+
+.rarity-9 {
+    background-color: #333333;
+    color: white;
+}
