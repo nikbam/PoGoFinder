@@ -3,12 +3,14 @@
 A Pokemon Go Scanner, that supports multiple accounts, scan on demand and auto-scanning using a SpawnPoints database
 
 PoGoFinder is a multi-threaded desktop application, that utilizes the JavaFX's webengine to load the Leaflet map
+
 There is communication between Java and Javascript
 
-#### WARNING
+:warning: #### WARNING
 
-:warning: Latest security update on Niantic's servers has crippled all Pokemon Go Scanners :warning:
-:warning: WILL NOT work until further notice (Reversing in progress...) :warning:
+Latest security update on Niantic's servers has crippled all Pokemon Go Scanners
+
+WILL NOT work until further notice (Reversing in progress...)
 
 ## Features
 
